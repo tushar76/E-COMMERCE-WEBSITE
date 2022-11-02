@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Add Items</h1>
+    <form action="/addItem" method="post">
+        <label >Name</label>
+        <input type="text" name="itemName" id="" required><br>
+        <label >Description</label>
+        <input type="text" name="description" id="" required><br>
+        <label >Price</label>
+        <input type="text" name="price" id="" required><br>
+        <label >Image Url</label>
+        <input type="text" name="image" id="" required><br>
+        <label >Type</label>
+        <select name="type" id="" required>
+            <option value="">Select</option>
+            <option value="medicine">medicine</option>
+            <option value="groceries">groceries</option>
+            <option value="books">books</option>
+            <option value="stationery">stationery</option>
+            <option value="cosmetics">cosmetics</option>
+            <option value="electronics">electronics</option>
+            <option value="any">any</option>
+        </select>
+        <br>
+        <label >Weight</label>
+        <input type="text" name="weight" id="" required><br>
+        <label >Quantity</label>
+        <input type="number" name="quantity" id="" required><br>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
